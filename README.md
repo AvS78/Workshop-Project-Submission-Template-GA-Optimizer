@@ -71,7 +71,7 @@ Nevertheless, the free [iss-vm](https://github.com/telescopeuser/iss-vm) worksta
 <img src="Miscellaneous/GA-Solver.png"
      style="float: left; margin-right: 0px;" />
 
-The NLP Solver contains below two algorthms/models:
+The NLP Solver contains below algorthms/models relating to evolutionary programming:
 
 **1. DEPS - Differential Evolution & Particle Swarm Optimization**
 
