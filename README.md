@@ -28,20 +28,18 @@
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
 
 **Abstract**
+
 We developed an IT project release schedule optimizer using Genetic Algorithm, considering various real world constraints, including human resources, lead time and software version compatibility. The goal for optimizer is to shorten the overall projects' life span as well as individual project's life spans for a group of concurrently running projects. The implementation tools used are Microsoft Excel and Evolver.
 
 **Keywords**: Genetic Algorithm, Project Release Management, Optimization, Evolver
 
 **Problem Introduction**
 
-Release Management is the process of managing software (IT project) releases from development stage to software release in production. Software products (with different versions/upgrades) are typically in an ongoing cycle of planning, development, various testing, and production release. [1] 
+Release Management is the process of managing software (IT project) releases from development stage to software release in production. Software products (with different versions/upgrades) are typically in an ongoing cycle of planning, development, various testing, and production release.
 
 There is growing complexity of dynamic project dependencies, maximum available resources, and large number of parallel running projects, together with various moving/changing influencing factors to take into consideration. These factors must fit together seamlessly to guarantee success and long-term value of multiple running projects as a whole.
 
 We developed a simplified GA optimizer to conduct multiple project releases scheduling (to shorten make-span of both individual project and all projects as a whole), considering several resource constraints, including available human resources, testing environments, and software version conflicts among all projects.
-
-This pilot model will serve as a base to tackle further sophisticated release management requirements in real Information Technology industries discussed in Section 4.2 Future Work. With ISS guidance, we aim to fully develop the enhanced intelligent system, and to submit a paper to the 19th KES International Conference on Knowledge-Based and Intelligent Information & Engineering Systems, held in Sept 2015 in Singapore.
-
 
 
 ---
@@ -49,9 +47,9 @@ This pilot model will serve as a base to tackle further sophisticated release ma
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| GU Zhan (Sam) | A0107682A | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| zhan.gu@nus.edu.sg |
-| LIU Jie (Judy) | A0107579U | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| dummy@dummy.com |
-| Francisco Liwa | A0107538A | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| dummy@dummy.com |
+| GU Zhan (Sam) | A0107682A | domain modeling, system design, fitness function design, score integraion | dummy@dummy.com |
+| LIU Jie (Judy) | A0107579U | execuate GA runs, draft report | dummy@dummy.com |
+| Francisco Liwa | A0107538A | execuate GA runs, version control | dummy@dummy.com |
 
 ---
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
