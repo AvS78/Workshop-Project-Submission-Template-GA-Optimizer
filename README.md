@@ -66,7 +66,7 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 This project was implemented using a properiatory software: [Evolver](https://www.palisade.com/evolver), which is a plug-in tool for Microsoft Excel.
 
-Nevertheless, the curated [iss-vm](https://github.com/telescopeuser/iss-vm) workstation ships a free-of-charge evolutionary nonlinear programming solver: [NLP Solver](https://wiki.openoffice.org/wiki/NLPSolver), as a plug-in for LibreOffice Calc (Microsoft Excel alike). It is possible to migrate the system from Excel/Evolver to Calc/NLP-Solver.
+Nevertheless, the free [iss-vm](https://github.com/telescopeuser/iss-vm) workstation also ships a free-of-charge evolutionary nonlinear programming solver: [NLP Solver](https://wiki.openoffice.org/wiki/NLPSolver), as a plug-in for LibreOffice Calc (Microsoft Excel alike). It is possible to migrate the system from Excel/Evolver to Calc/NLP-Solver.
 
 <img src="Miscellaneous/GA-Solver.png"
      style="float: left; margin-right: 0px;" />
