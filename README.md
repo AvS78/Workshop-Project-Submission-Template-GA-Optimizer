@@ -64,7 +64,7 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 **iss-vm** virtual machine contains an evolutionary nonlinear programming solver, as a plug-in for LibreOffice Calc (Microsoft Excel alike). 
 
-<img src="Miscellaneous/GA-Optimizer.png"
+<img src="Miscellaneous/GA-Solver.png"
      style="float: left; margin-right: 0px;" />
 
 The NLP Solver contains below two algorthms/models:
