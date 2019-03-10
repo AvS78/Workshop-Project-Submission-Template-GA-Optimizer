@@ -62,6 +62,34 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 ---
 ## SECTION 5 : USER GUIDE
 
+**iss-vm** virtual machine contains an evolutionary nonlinear programming solver, as a plug-in for LibreOffice Calc (Microsoft Excel alike). 
+
+<img src="Miscellaneous/GA-Optimizer.png"
+     style="float: left; margin-right: 0px;" />
+
+The NLP Solver contains below two algorthms/models:
+
+https://wiki.openoffice.org/wiki/NLPSolver
+
+**1. DEPS - Differential Evolution & Particle Swarm Optimization**
+
+DEPS consists of two independent algorithms: Differential Evolution and Particle Swarm Optimization. Both are especially suited for numerical problems, such as nonlinear optimization, and are complementary to each other in that they even out their others shortcomings.
+
+The idea behind Particle Swarm Optimization is to represent every solution vector as coordinates in an n-dimensional room. Each individual (particle) traverses through that space and keeps track of its own best point so far. This information as well as the knowledge about the particle with the best current solution influence how it will move in each iteration. Due to that, the particles will always try to build a swarm and float around the best solutions, traversing possible even better solutions on its way.
+
+Differential Evolution on the other hand is a strategy to "recombine" two individuals similar to Genetic Algorithms. Instead of crossing over chromosomes (i.e. mixing up their variables), the knowledge about the target function is used to anneal both points.
+
+In each iteration of the algorithm, each individual chooses one of both strategies and applies them to its current solution vector. The probability, which strategy is chosen, can be modified with the option Agent Switch Rate.
+
+**2. SCO - Social Cognitive Optimization**
+
+SCO takes into account the human behavior of learning and sharing informations. Each individual has access to a common library with knowledge shared between all individuals.
+
+In each step, an individual looks up the (presumably) best information available in the library and builds a decision based on it together with its own current knowledge about the problem. Afterwards it replaces one of the worse informations from the library with its newly learned solution.
+
+That way all individuals work together (the social aspect) and make up their own mind (the cognitive aspect). Therefore it's called Social Cognitive Optimization.
+
+
 `<Github File Link>` : <https://github.com/telescopeuser/Workshop-Project-Submission-Template-GA-Optimizer/blob/master/UserGuide/Refer%20to%20Project%20Release%20Optimizer.xlsx.txt>
 
 ---
