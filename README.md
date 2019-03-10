@@ -62,14 +62,16 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 ---
 ## SECTION 5 : USER GUIDE
 
-**iss-vm** virtual machine contains an evolutionary nonlinear programming solver, as a plug-in for LibreOffice Calc (Microsoft Excel alike). 
+`<Github File Link>` : <https://github.com/telescopeuser/Workshop-Project-Submission-Template-GA-Optimizer/blob/master/UserGuide/Refer%20to%20Project%20Release%20Optimizer.xlsx.txt>
+
+This project was implemented using a properiatory software: [Evolver](https://www.palisade.com/evolver), which is a plug-in tool for Microsoft Excel.
+
+Nevertheless, **iss-vm** virtual machine contains a free-of-charge evolutionary nonlinear programming solver: [NLP Solver](https://wiki.openoffice.org/wiki/NLPSolver), as a plug-in for LibreOffice Calc (Microsoft Excel alike). It is possible to migrate the system from Excel/Evolver to Calc/NLP-Solver.
 
 <img src="Miscellaneous/GA-Solver.png"
      style="float: left; margin-right: 0px;" />
 
 The NLP Solver contains below two algorthms/models:
-
-https://wiki.openoffice.org/wiki/NLPSolver
 
 **1. DEPS - Differential Evolution & Particle Swarm Optimization**
 
@@ -88,9 +90,6 @@ SCO takes into account the human behavior of learning and sharing informations. 
 In each step, an individual looks up the (presumably) best information available in the library and builds a decision based on it together with its own current knowledge about the problem. Afterwards it replaces one of the worse informations from the library with its newly learned solution.
 
 That way all individuals work together (the social aspect) and make up their own mind (the cognitive aspect). Therefore it's called Social Cognitive Optimization.
-
-
-`<Github File Link>` : <https://github.com/telescopeuser/Workshop-Project-Submission-Template-GA-Optimizer/blob/master/UserGuide/Refer%20to%20Project%20Release%20Optimizer.xlsx.txt>
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
