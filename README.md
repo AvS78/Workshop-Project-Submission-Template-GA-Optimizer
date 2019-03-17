@@ -66,7 +66,7 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 This project was implemented using a properiatory software: [Evolver](https://www.palisade.com/evolver), which is a plug-in tool for Microsoft Excel.
 
-**The Excel-Evolver implemetation of Project Release Optimizer can be found in \SystemCode\ISS-VM Solver**
+**The Excel-Evolver implemetation of Project Release Optimizer can be found in \SystemCode\Excel Evolver\Project Release Optimizer.xlsx**
 
 The free [iss-vm](https://github.com/telescopeuser/iss-vm) workstation also ships a free-of-charge evolutionary nonlinear programming solver: [NLP Solver](https://wiki.openoffice.org/wiki/NLPSolver), as a plug-in for LibreOffice Calc (Microsoft Excel alike). 
 
