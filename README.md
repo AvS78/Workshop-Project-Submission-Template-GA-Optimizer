@@ -47,14 +47,14 @@ We developed a simplified GA optimizer to conduct multiple project releases sche
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| GU Zhan (Sam) | A0107682A | domain modeling, system design, fitness function design, score integraion | dummy@dummy.com |
+| GU Zhan (Sam) | A0107682A | domain modeling, fitness function design, score integraion | dummy@dummy.com |
 | LIU Jie (Judy) | A0107579U | execuate GA runs, draft report | dummy@dummy.com |
 | Francisco Liwa | A0107538A | execuate GA runs, version control | dummy@dummy.com |
 
 ---
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![GA Optimizer](http://img.youtube.com/vi/tbd/0.jpg)](https://youtu.be/tbd "GA Optimizer")
+[![GA Optimizer (Video Not Available) ](http://img.youtube.com/vi/tbd/0.jpg)](https://youtu.be/tbd "GA Optimizer")
 
 Note: It is not mandatory for every project member to appear in video presentation; Presentation by one project member is acceptable. 
 More reference video presentations [here](https://telescopeuser.wordpress.com/2018/03/31/master-of-technology-solution-know-how-video-index-2/ "video presentations")
@@ -66,7 +66,12 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 This project was implemented using a properiatory software: [Evolver](https://www.palisade.com/evolver), which is a plug-in tool for Microsoft Excel.
 
-**The Excel-Evolver implemetation of Project Release Optimizer can be found in \SystemCode\Excel Evolver\Project Release Optimizer.xlsx**
+#### [ 2014 September ] The Excel-Evolver implemetation of Project Release Optimizer can be found in \SystemCode\Excel Evolver\Project Release Optimizer.xlsx
+
+<img src="Miscellaneous/GA-Optimizer-Evolver-Settings.png"
+     style="float: left; margin-right: 0px;" />
+
+### Here is the good news :
 
 The free [iss-vm](https://github.com/telescopeuser/iss-vm) workstation also ships a free-of-charge evolutionary nonlinear programming solver: [NLP Solver](https://wiki.openoffice.org/wiki/NLPSolver), as a plug-in for LibreOffice Calc (Microsoft Excel alike). 
 
@@ -94,7 +99,7 @@ In each step, an individual looks up the (presumably) best information available
 That way all individuals work together (the social aspect) and make up their own mind (the cognitive aspect). Therefore it's called Social Cognitive Optimization.
 
 
-**The NLP-Solver implemetation of Project Release Optimizer can be found in \SystemCode\ISS-VM Solver\Project Release Optimizer iss-vm.ods**
+#### [ 2019 March ] The NLP-Solver implemetation of Project Release Optimizer can be found in \SystemCode\ISS-VM Solver\Project Release Optimizer iss-vm.ods
 
 <img src="Miscellaneous/GA-Optimizer-ISS-VM.png"
      style="float: left; margin-right: 0px;" />
