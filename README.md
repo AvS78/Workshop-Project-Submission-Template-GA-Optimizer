@@ -54,7 +54,7 @@ We developed a simplified GA optimizer to conduct multiple project releases sche
 ---
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![GA Optimizer](http://img.youtube.com/vi/tbd/0.jpg)](https://youtu.be/tbd "GA Optimizer [Video Not Available]")
+[![GA Optimizer (Video Not Available) ](http://img.youtube.com/vi/tbd/0.jpg)](https://youtu.be/tbd "GA Optimizer")
 
 Note: It is not mandatory for every project member to appear in video presentation; Presentation by one project member is acceptable. 
 More reference video presentations [here](https://telescopeuser.wordpress.com/2018/03/31/master-of-technology-solution-know-how-video-index-2/ "video presentations")
@@ -70,6 +70,8 @@ This project was implemented using a properiatory software: [Evolver](https://ww
 
 <img src="Miscellaneous/GA-Optimizer-Evolver-Settings.png"
      style="float: left; margin-right: 0px;" />
+
+### Here is the good news :
 
 The free [iss-vm](https://github.com/telescopeuser/iss-vm) workstation also ships a free-of-charge evolutionary nonlinear programming solver: [NLP Solver](https://wiki.openoffice.org/wiki/NLPSolver), as a plug-in for LibreOffice Calc (Microsoft Excel alike). 
 
