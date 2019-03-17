@@ -21,7 +21,7 @@
 ## SECTION 1 : PROJECT TITLE
 ## GA Optimizer for Project Release Scheduling and Resource Allocation
 
-<img src="Miscellaneous/GA-Optimizer.png"
+<img src="Miscellaneous/GA-Optimizer-Evolver.png"
      style="float: left; margin-right: 0px;" />
 
 ---
@@ -66,7 +66,9 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 This project was implemented using a properiatory software: [Evolver](https://www.palisade.com/evolver), which is a plug-in tool for Microsoft Excel.
 
-Nevertheless, the free [iss-vm](https://github.com/telescopeuser/iss-vm) workstation also ships a free-of-charge evolutionary nonlinear programming solver: [NLP Solver](https://wiki.openoffice.org/wiki/NLPSolver), as a plug-in for LibreOffice Calc (Microsoft Excel alike). It is possible to migrate the system from Excel/Evolver to Calc/NLP Solver.
+**The Excel-Evolver implemetation of Project Release Optimizer can be found in \SystemCode\ISS-VM Solver**
+
+The free [iss-vm](https://github.com/telescopeuser/iss-vm) workstation also ships a free-of-charge evolutionary nonlinear programming solver: [NLP Solver](https://wiki.openoffice.org/wiki/NLPSolver), as a plug-in for LibreOffice Calc (Microsoft Excel alike). 
 
 <img src="Miscellaneous/GA-Solver.png"
      style="float: left; margin-right: 0px;" />
@@ -90,6 +92,13 @@ SCO takes into account the human behavior of learning and sharing informations. 
 In each step, an individual looks up the (presumably) best information available in the library and builds a decision based on it together with its own current knowledge about the problem. Afterwards it replaces one of the worse informations from the library with its newly learned solution.
 
 That way all individuals work together (the social aspect) and make up their own mind (the cognitive aspect). Therefore it's called Social Cognitive Optimization.
+
+
+**The NLP-Solver implemetation of Project Release Optimizer can be found in \SystemCode\ISS-VM Solver\Project Release Optimizer iss-vm.ods**
+
+<img src="Miscellaneous/GA-Optimizer-ISS-VM.png"
+     style="float: left; margin-right: 0px;" />
+
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
